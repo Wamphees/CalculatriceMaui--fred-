@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CalculatriceMaui</name>
+    </assembly>
+    <members>
+        <member name="T:CalculatriceMaui.CalculatorEngine">
+            <summary>
+            Moteur de la calculatrice : aucune dépendance à l'interface.
+            Utilise decimal pour éviter les erreurs d'arrondi binaires (0,1 + 0,2 = 0,3).
+            </summary>
+        </member>
+        <member name="P:CalculatriceMaui.CalculatorEngine.Current">
+            <summary>Nombre en cours de saisie / dernier résultat (format invariant, ex. "12.5").</summary>
+        </member>
+        <member name="P:CalculatriceMaui.CalculatorEngine.Expression">
+            <summary>Opération en cours, affichée au-dessus du résultat.</summary>
+        </member>
+        <member name="P:CalculatriceMaui.CalculatorEngine.Display">
+            <summary>Texte à afficher (virgule décimale française).</summary>
+        </member>
+    </members>
+</doc>
